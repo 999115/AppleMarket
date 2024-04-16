@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">AppleMarket</string>
+    <string name="main_top_location">내배캠동</string>
+
+    <string name="main_recyclerview_price">%d원</string>
+
+    <string name="main_recyclerview_title1">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription1">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller1">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price1">1000</string>
+    <string name="main_recyclerview_address1">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum1">25</string>
+    <string name="main_recyclerview_likeNum1">13</string>
+
+    <string name="main_recyclerview_title2">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription2">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller2">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price2">1000</string>
+    <string name="main_recyclerview_address2">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum2">25</string>
+    <string name="main_recyclerview_likeNum2">13</string>
+
+    <string name="main_recyclerview_title3">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription3">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller3">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price3">1000</string>
+    <string name="main_recyclerview_address3">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum3">25</string>
+    <string name="main_recyclerview_likeNum3">13</string>
+
+    <string name="main_recyclerview_title4">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription4">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller4">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price4">1000</string>
+    <string name="main_recyclerview_address4">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum4">25</string>
+    <string name="main_recyclerview_likeNum4">13</string>
+
+    <string name="main_recyclerview_title5">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription5">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller5">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price5">1000</string>
+    <string name="main_recyclerview_address5">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum5">25</string>
+    <string name="main_recyclerview_likeNum5">13</string>
+
+    <string name="main_recyclerview_title6">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription6">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller6">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price6">1000</string>
+    <string name="main_recyclerview_address6">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum6">25</string>
+    <string name="main_recyclerview_likeNum6">13</string>
+
+    <string name="main_recyclerview_title7">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription7">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller7">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price7">1000</string>
+    <string name="main_recyclerview_address7">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum7">25</string>
+    <string name="main_recyclerview_likeNum7">13</string>
+
+    <string name="main_recyclerview_title8">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription8">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller8">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price8">1000</string>
+    <string name="main_recyclerview_address8">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum8">25</string>
+    <string name="main_recyclerview_likeNum8">13</string>
+
+    <string name="main_recyclerview_title9">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription9">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller9">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price9">1000</string>
+    <string name="main_recyclerview_address9">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum9">25</string>
+    <string name="main_recyclerview_likeNum9">13</string>
+
+    <string name="main_recyclerview_title10">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_subscription10">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_seller10">산진 한달된 선풍기 팝니다</string>
+    <string name="main_recyclerview_price10">1000</string>
+    <string name="main_recyclerview_address10">서울 서대문구 창천동</string>
+    <string name="main_recyclerview_chatNum10">25</string>
+    <string name="main_recyclerview_likeNum10">13</string>
+</resources>
