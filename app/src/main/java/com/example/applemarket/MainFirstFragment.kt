@@ -1,6 +1,7 @@
 package com.example.applemarket
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.applemarket.databinding.FragmentMainFirstBinding
+import java.lang.RuntimeException
 
 class MainFirstFragment : Fragment() {
 
@@ -20,6 +22,18 @@ class MainFirstFragment : Fragment() {
 
     private val productListData by lazy {
         mutableListOf<ProductInfo>()
+    }
+
+    private var listener: FragmentDataListener? = null
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+
+        if (context is FragmentDataListener) {
+            listener = context
+        } else {
+            throw RuntimeException("$context must implement FragmentDataListener")
+        }
     }
 
     @SuppressLint("DiscouragedApi")
@@ -38,12 +52,8 @@ class MainFirstFragment : Fragment() {
 
         adapter.click = object : MainDefaultAdapter.Click {
             override fun clicked(view: View, position: Int) {
-                val goDetail = Intent(context, DetailpageActivity::class.java)
                 val selectedData = productListData[position]
-
-                goDetail.putExtra("selectedData", selectedData)
-
-                startActivity(goDetail)
+                listener?.onDataReceived(selectedData)
             }
         }
 

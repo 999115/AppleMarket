@@ -8,7 +8,7 @@
                 android:height="30dp"
                 android:width="65dp"/>
             <corners
-                android:radius="8dp"/>
+                android:radius="6dp"/>
             <solid
                 android:color="@color/dark_carrot"/>
             <padding
@@ -26,7 +26,7 @@
                 android:height="30dp"
                 android:width="65dp"/>
             <corners
-                android:radius="8dp"/>
+                android:radius="6dp"/>
             <solid
                 android:color="@color/carrot"/>
             <padding

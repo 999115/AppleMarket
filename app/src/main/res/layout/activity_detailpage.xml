@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".DetailpageActivity">
 
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_back"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:elevation="1dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
     <ScrollView
         android:id="@+id/frame_scrollview"
         android:layout_width="0dp"
@@ -32,6 +44,7 @@
                 android:id="@+id/layout_seller"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/bg_outline_bottom"
                 android:paddingStart="18dp"
                 android:paddingTop="13dp"
                 android:paddingEnd="18dp"
@@ -54,6 +67,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:text="@string/main_first_seller1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toEndOf="@+id/iv_profile_img"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -63,6 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:text="@string/main_first_address1"
+                    android:textSize="14sp"
                     app:layout_constraintStart_toEndOf="@+id/iv_profile_img"
                     app:layout_constraintTop_toBottomOf="@+id/tv_seller" />
 
@@ -72,6 +88,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="5dp"
                     android:text="@string/detail_temp_degree"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/emerald"
                     app:layout_constraintBottom_toBottomOf="@id/iv_temp_img"
                     app:layout_constraintEnd_toStartOf="@+id/iv_temp_img"
                     app:layout_constraintTop_toTopOf="@id/iv_temp_img" />
@@ -91,6 +110,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/detail_temp"
+                    android:textSize="11sp"
+                    android:textColor="@color/gray"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/iv_temp_img" />
@@ -114,8 +135,9 @@
                 android:id="@+id/tv_subscription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="18dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="18dp"
                 android:text="@string/main_first_subscription7"
                 android:textSize="17sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -135,32 +157,45 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <ImageView
-            android:id="@+id/iv_like"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_move_fragment"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frame_like"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bg_outline_end"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <ImageView
+                android:id="@+id/iv_like"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_like"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:id="@+id/tv_location"
+            android:id="@+id/tv_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:text="@string/main_price"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/iv_like"
-            app:layout_constraintStart_toEndOf="@+id/iv_like"
-            app:layout_constraintTop_toTopOf="@+id/iv_like" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/frame_like"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <android.widget.Button
-            android:id="@+id/iv_notice"
+            android:id="@+id/bt_chat"
             android:layout_width="85dp"
             android:layout_height="0dp"
             android:background="@drawable/slc_bt_chat"
             android:text="@string/detail_chat"
+            android:textSize="14sp"
             android:textColor="@color/white"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
