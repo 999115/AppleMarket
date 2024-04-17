@@ -4,10 +4,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.applemarket.databinding.LayoutDefaultBinding
+import com.example.applemarket.databinding.LayoutMainDefaultBinding
 
-class DefaultAdapter(private val productList: MutableList<ProductInfo>) :
-    RecyclerView.Adapter<DefaultAdapter.ViewHolder>() {
+class MainDefaultAdapter(private val productList: MutableList<ProductInfo>) :
+    RecyclerView.Adapter<MainDefaultAdapter.ViewHolder>() {
 
     interface Click {
         fun clicked(view: View, position: Int)
@@ -17,7 +17,7 @@ class DefaultAdapter(private val productList: MutableList<ProductInfo>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding =
-            LayoutDefaultBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            LayoutMainDefaultBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }
 
@@ -25,7 +25,7 @@ class DefaultAdapter(private val productList: MutableList<ProductInfo>) :
         holder.layout.setOnClickListener {
             click?.clicked(it, position)
         }
-        holder.hold(productList[position])
+        holder.bind(productList[position])
     }
 
     override fun getItemId(position: Int): Long {
@@ -36,16 +36,16 @@ class DefaultAdapter(private val productList: MutableList<ProductInfo>) :
         return productList.size
     }
 
-    inner class ViewHolder(private val binding: LayoutDefaultBinding) :
+    inner class ViewHolder(private val binding: LayoutMainDefaultBinding) :
         RecyclerView.ViewHolder(binding.root) {
         val layout = binding.layoutProduct
-        fun hold(info: ProductInfo) {
+        fun bind(info: ProductInfo) {
             val priceContext = binding.tvPrice.context
             binding.ivProductImg.setImageResource(info.image)
             binding.tvTitle.setText(info.title)
             binding.tvAddress.setText(info.address)
             binding.tvPrice.text = priceContext.getString(
-                R.string.main_recyclerview_price,
+                R.string.main_price,
                 priceContext.getString(info.price).toInt()
             )
             binding.tvChatNumber.setText(info.chatNum)

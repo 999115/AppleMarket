@@ -1,7 +1,6 @@
 package com.example.applemarket
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
@@ -17,16 +16,16 @@ class MainpageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        setFragment(FirstFragment())
+        setFragment(MainFirstFragment())
         binding.ivMoveFragment.setOnClickListener {
-            setFragment(SecondFragment())
+            setFragment(MainSecondFragment())
         }
 
     }
 
     private fun setFragment(fragment: Fragment) {
         supportFragmentManager.commit {
-            replace(R.id.frame_fragment, fragment)
+            replace(R.id.frame_scrollview, fragment)
             setReorderingAllowed(true)
             addToBackStack("")
         }
