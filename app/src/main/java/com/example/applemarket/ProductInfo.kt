@@ -13,4 +13,5 @@ data class ProductInfo(
     val address: Int,
     val likeNum: Int,
     val chatNum: Int,
+    val temp: Int,
     ) : Parcelable

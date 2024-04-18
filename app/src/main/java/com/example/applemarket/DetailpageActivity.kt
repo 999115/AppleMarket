@@ -1,15 +1,16 @@
 package com.example.applemarket
 
 import android.content.Intent
+import android.content.res.Resources
+import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
 import com.example.applemarket.databinding.ActivityDetailpageBinding
-import com.example.applemarket.databinding.ActivityMainpageBinding
 import java.text.DecimalFormat
 
 class DetailpageActivity : AppCompatActivity() {
@@ -36,6 +37,37 @@ class DetailpageActivity : AppCompatActivity() {
             (intent.getParcelableExtra("infoData") as? ProductInfo)!!
         }
 
+        val temp = getString(infoData.temp).toDouble()
+        var colorId = 0
+        var imgId = 0
+
+        when {
+            temp >= 0 && temp < 25 -> {
+                colorId = R.color.red
+                imgId = R.drawable.img_6
+            }
+            temp >= 25 && temp < 30 -> {
+                colorId = R.color.apple
+                imgId = R.drawable.img_5
+            }
+            temp >= 30 && temp < 33 -> {
+                colorId = R.color.orange
+                imgId = R.drawable.img_4
+            }
+            temp >= 33 && temp < 35 -> {
+                colorId = R.color.yellow
+                imgId = R.drawable.img_3
+            }
+            temp >= 35 && temp < 37 -> {
+                colorId = R.color.green
+                imgId = R.drawable.img_2
+            }
+            else -> {
+                colorId = R.color.emerald
+                imgId = R.drawable.img_1
+            }
+        }
+
         binding.ivProductImg.setImageResource(infoData.image)
         binding.tvSeller.setText(infoData.seller)
         binding.tvAddress.setText(infoData.address)
@@ -45,6 +77,12 @@ class DetailpageActivity : AppCompatActivity() {
             R.string.main_price,
             DecimalFormat("#,###,###").format(getString(infoData.price).toInt())
         )
+        binding.tvTempDegree.text = getString(
+            R.string.detail_temp_degree,
+            DecimalFormat("##.#").format(temp)
+        )
+        binding.tvTempDegree.setTextColor(ResourcesCompat.getColor(getResources(), colorId, null))
+        binding.ivTempImg.setImageResource(imgId)
 
     }
 
@@ -59,7 +97,7 @@ class DetailpageActivity : AppCompatActivity() {
         binding.btChat.setOnClickListener {
             val chatData = Intent(this, ChatpageActivity::class.java)
 
-            chatData.putExtra("sellerData", binding.tvSeller.text.toString())
+            chatData.putExtra("chatData", infoData)
 
             startActivity(chatData)
         }
@@ -69,4 +107,5 @@ class DetailpageActivity : AppCompatActivity() {
         }
 
     }
+
 }

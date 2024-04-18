@@ -1,11 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">사과마켓</string>
 
-    <string name="main_top_location">내배캠동</string>
+    <string name="main_top_location1">내배캠동</string>
+    <string name="main_top_location2">사과동</string>
 
     <string name="main_price">%s원</string>
 
-    <string name="detail_temp_degree">%d °C</string>
+    <string name="detail_temp_degree">%s °C</string>
     <string name="detail_temp"><u>매너온도</u></string>
     <string name="detail_chat">채팅하기</string>
 
@@ -28,6 +29,7 @@
     <string name="main_first_address1">서울 서대문구 창천동</string>
     <string name="main_first_likeNum1">13</string>
     <string name="main_first_chatNum1">25</string>
+    <string name="main_first_temp1">30.5</string>
 
     <string name="main_first_title2">김치냉장고</string>
     <string name="main_first_subscription2">이사로인해 내놔요</string>
@@ -36,6 +38,7 @@
     <string name="main_first_address2">인천 계양구 귤현동</string>
     <string name="main_first_likeNum2">8</string>
     <string name="main_first_chatNum2">28</string>
+    <string name="main_first_temp2">39.9</string>
 
     <string name="main_first_title3">샤넬 카드지갑</string>
     <string name="main_first_subscription3">고퀄지갑이구요\n사용감이 있어서 싸게 내어둡니다</string>
@@ -44,6 +47,7 @@
     <string name="main_first_address3">수성구 범어동</string>
     <string name="main_first_likeNum3">23</string>
     <string name="main_first_chatNum3">5</string>
+    <string name="main_first_temp3">33.7</string>
 
     <string name="main_first_title4">금고</string>
     <string name="main_first_subscription4">금고\n떼서 가져가야함\n대우월드마크센텀\n미국이주관계로 싸게 팝니다</string>
@@ -52,6 +56,7 @@
     <string name="main_first_address4">해운대구 우제2동</string>
     <string name="main_first_likeNum4">14</string>
     <string name="main_first_chatNum4">17</string>
+    <string name="main_first_temp4">37.1</string>
 
     <string name="main_first_title5">갤럭시Z플립3 팝니다</string>
     <string name="main_first_subscription5">갤럭시 Z플립3 그린 팝니다\n항시 케이스 씌워서 썻고 필름 한장챙겨드립니다\n화면에 살짝 스크래치난거 말고 크게 이상은없습니다!</string>
@@ -60,6 +65,7 @@
     <string name="main_first_address5">연제구 연산제8동</string>
     <string name="main_first_likeNum5">22</string>
     <string name="main_first_chatNum5">9</string>
+    <string name="main_first_temp5">26.4</string>
 
     <string name="main_first_title6">프라다 복조리백</string>
     <string name="main_first_subscription6">까임 오염없고 상태 깨끗합니다\n정품여부모름</string>
@@ -68,6 +74,7 @@
     <string name="main_first_address6">수원시 영통구 원천동</string>
     <string name="main_first_likeNum6">25</string>
     <string name="main_first_chatNum6">16</string>
+    <string name="main_first_temp6">53.6</string>
 
     <string name="main_first_title7">울산 동해오션뷰 60평 복층 펜트하우스 1일 숙박권 펜션 힐링 숙소 별장</string>
     <string name="main_first_subscription7">울산 동해바다뷰 60평 복층 펜트하우스 1일 숙박권\n(에어컨이 없기에 낮은 가격으로 변경했으며 8월 초 가장 더운날 다녀가신 분 경우 시원했다고 잘 지내다 가셨습니다)\n1. 인원: 6명 기준입니다. 1인 10,000원 추가요금\n2. 장소: 북구 블루마시티, 32-33층\n3. 취사도구, 침구류, 세면도구, 드라이기 2개, 선풍기 4대 구비\n4. 예약방법: 예약금 50,000원 하시면 저희는 명함을 드리며 입실 오전 잔금 입금하시면 저희는 동.호수를 알려드리며 고객님은 예약자분 신분증 앞면 주민번호 뒷자리 가리시거나 지우시고 문자로 보내주시면 저희는 카드키를 우편함에 놓아 둡니다.\n5. 33층 옥상 야외 테라스 있음, 가스버너 있음\n6. 고기 굽기 가능\n7. 입실 오후 3시, 오전 11시 퇴실, 정리, 정돈 , 밸브 잠금 부탁드립니다.\n8. 층간소음 주의 부탁드립니다.\n9. 방3개, 화장실3개, 비데 3개\n10. 저희 집안이 쓰는 별장입니다.</string>
@@ -76,6 +83,7 @@
     <string name="main_first_address7">남구 옥동</string>
     <string name="main_first_likeNum7">142</string>
     <string name="main_first_chatNum7">54</string>
+    <string name="main_first_temp7">32.1</string>
 
     <string name="main_first_title8">샤넬 탑핸들 가방</string>
     <string name="main_first_subscription8">샤넬 트랜디 CC 탑핸들 스몰 램스킨 블랙 금장 플랩백 !\n\n색상 : 블랙\n사이즈 : 25.5cm * 17.5cm * 8cm\n구성 : 본품더스트\n\n급하게 돈이 필요해서 팝니다 ㅠ ㅠ</string>
@@ -84,6 +92,7 @@
     <string name="main_first_address8">동래구 온천제2동</string>
     <string name="main_first_likeNum8">31</string>
     <string name="main_first_chatNum8">7</string>
+    <string name="main_first_temp8">39.2</string>
 
     <string name="main_first_title9">4행정 엔진분무기 판매합니다.</string>
     <string name="main_first_subscription9">3년전에 사서 한번 사용하고 그대로 둔 상태입니다. 요즘 사용은 안해봤습니다. 그래서 저렴하게 내 놓습니다. 중고라 반품은 어렵습니다.\n</string>
@@ -92,6 +101,7 @@
     <string name="main_first_address9">원주시 명륜2동</string>
     <string name="main_first_likeNum9">7</string>
     <string name="main_first_chatNum9">28</string>
+    <string name="main_first_temp9">36.7</string>
 
     <string name="main_first_title10">셀린느 버킷 가방</string>
     <string name="main_first_subscription10">22년 신세계 대전 구매입니당\n셀린느 버킷백\n구매해서 몇번사용했어요\n까짐 스크래치 없습니다.\n타지역에서 보내는거라 택배로 진행합니당!"</string>
@@ -100,6 +110,7 @@
     <string name="main_first_address10">중구 동화동</string>
     <string name="main_first_likeNum10">40</string>
     <string name="main_first_chatNum10">6</string>
+    <string name="main_first_temp10">42.9</string>
 
     <!--ProductInfo 구분선-->
 
@@ -110,77 +121,88 @@
     <string name="main_second_address1">강서구 마곡동</string>
     <string name="main_second_likeNum1">54</string>
     <string name="main_second_chatNum1">2</string>
+    <string name="main_second_temp1">33.3</string>
 
-    <string name="main_second_title2">김치냉장고</string>
-    <string name="main_second_subscription2">이사로인해 내놔요</string>
-    <string name="main_second_seller2">안마담</string>
-    <string name="main_second_price2">20000</string>
-    <string name="main_second_address2">인천 계양구 귤현동</string>
-    <string name="main_second_likeNum2">8</string>
-    <string name="main_second_chatNum2">28</string>
 
-    <string name="main_second_title3">샤넬 카드지갑</string>
-    <string name="main_second_subscription3">고퀄지갑이구요\n사용감이 있어서 싸게 내어둡니다</string>
-    <string name="main_second_seller3">코코유</string>
-    <string name="main_second_price3">10000</string>
-    <string name="main_second_address3">수성구 범어동</string>
-    <string name="main_second_likeNum3">23</string>
-    <string name="main_second_chatNum3">5</string>
+    <string name="main_second_title2">아이폰 15</string>
+    <string name="main_second_subscription2">친구한테 빚 갚아야하는데 거래가 다 취소되서\n급한대로 팝니다.. 10만원에 진짜 드릴테니 연락주세요</string>
+    <string name="main_second_seller2">구리파스쿠치</string>
+    <string name="main_second_price2">100000</string>
+    <string name="main_second_address2">노원구 중계동</string>
+    <string name="main_second_likeNum2">26</string>
+    <string name="main_second_chatNum2">69</string>
+    <string name="main_second_temp2">38.3</string>
 
-    <string name="main_second_title4">금고</string>
-    <string name="main_second_subscription4">금고\n떼서 가져가야함\n대우월드마크센텀\n미국이주관계로 싸게 팝니다</string>
-    <string name="main_second_seller4">Nicole</string>
-    <string name="main_second_price4">10000</string>
-    <string name="main_second_address4">해운대구 우제2동</string>
-    <string name="main_second_likeNum4">14</string>
-    <string name="main_second_chatNum4">17</string>
+    <string name="main_second_title3">제습기</string>
+    <string name="main_second_subscription3">사용감있어요.</string>
+    <string name="main_second_seller3">팅커벨</string>
+    <string name="main_second_price3">20000</string>
+    <string name="main_second_address3">전북 군산시 내흥동</string>
+    <string name="main_second_likeNum3">15</string>
+    <string name="main_second_chatNum3">71</string>
+    <string name="main_second_temp3">36.7</string>
 
-    <string name="main_second_title5">갤럭시Z플립3 팝니다</string>
-    <string name="main_second_subscription5">갤럭시 Z플립3 그린 팝니다\n항시 케이스 씌워서 썻고 필름 한장챙겨드립니다\n화면에 살짝 스크래치난거 말고 크게 이상은없습니다!</string>
-    <string name="main_second_seller5">절명</string>
-    <string name="main_second_price5">150000</string>
-    <string name="main_second_address5">연제구 연산제8동</string>
-    <string name="main_second_likeNum5">22</string>
-    <string name="main_second_chatNum5">9</string>
+    <string name="main_second_title4">맥북 i9 16G 1TB</string>
+    <string name="main_second_subscription4">아이가 군대 지난주에갔는데 컴 팔아서 용돈 쓰라기에 5년전 컴이라 저렴하게내놔요.\n관심있음 연락주세요. 꼭 현금으로만 구매원해요.\n아이가 암호는 1111이라니 와서 확인후사세요.\n잘모르니 묻지마세요. 케이스없어요.</string>
+    <string name="main_second_seller4">노타임</string>
+    <string name="main_second_price4">410000</string>
+    <string name="main_second_address4">구로구 구로제3동</string>
+    <string name="main_second_likeNum4">44</string>
+    <string name="main_second_chatNum4">58</string>
+    <string name="main_second_temp4">36.5</string>
 
-    <string name="main_second_title6">프라다 복조리백</string>
-    <string name="main_second_subscription6">까임 오염없고 상태 깨끗합니다\n정품여부모름</string>
-    <string name="main_second_seller6">미니멀하게</string>
-    <string name="main_second_price6">50000</string>
-    <string name="main_second_address6">수원시 영통구 원천동</string>
-    <string name="main_second_likeNum6">25</string>
-    <string name="main_second_chatNum6">16</string>
+    <string name="main_second_title5">가게정리중</string>
+    <string name="main_second_subscription5">가게정리로 새 상품 판매해요\n3천원부터 ~~나눔까지\n5일간만 판매해요~~</string>
+    <string name="main_second_seller5">나야나</string>
+    <string name="main_second_price5">3000</string>
+    <string name="main_second_address5">경남 양산시 물금읍</string>
+    <string name="main_second_likeNum5">62</string>
+    <string name="main_second_chatNum5">58</string>
+    <string name="main_second_temp5">44.1</string>
 
-    <string name="main_second_title7">울산 동해오션뷰 60평 복층 펜트하우스 1일 숙박권 펜션 힐링 숙소 별장</string>
-    <string name="main_second_subscription7">울산 동해바다뷰 60평 복층 펜트하우스 1일 숙박권\n(에어컨이 없기에 낮은 가격으로 변경했으며 8월 초 가장 더운날 다녀가신 분 경우 시원했다고 잘 지내다 가셨습니다)\n1. 인원: 6명 기준입니다. 1인 10,000원 추가요금\n2. 장소: 북구 블루마시티, 32-33층\n3. 취사도구, 침구류, 세면도구, 드라이기 2개, 선풍기 4대 구비\n4. 예약방법: 예약금 50,000원 하시면 저희는 명함을 드리며 입실 오전 잔금 입금하시면 저희는 동.호수를 알려드리며 고객님은 예약자분 신분증 앞면 주민번호 뒷자리 가리시거나 지우시고 문자로 보내주시면 저희는 카드키를 우편함에 놓아 둡니다.\n5. 33층 옥상 야외 테라스 있음, 가스버너 있음\n6. 고기 굽기 가능\n7. 입실 오후 3시, 오전 11시 퇴실, 정리, 정돈 , 밸브 잠금 부탁드립니다.\n8. 층간소음 주의 부탁드립니다.\n9. 방3개, 화장실3개, 비데 3개\n10. 저희 집안이 쓰는 별장입니다.</string>
-    <string name="main_second_seller7">굿리치</string>
-    <string name="main_second_price7">150000</string>
-    <string name="main_second_address7">남구 옥동</string>
-    <string name="main_second_likeNum7">142</string>
-    <string name="main_second_chatNum7">54</string>
+    <string name="main_second_title6">제주도 2인 왕복 항공권 팝니다</string>
+    <string name="main_second_subscription6">2인 왕복 항공권이고 렌트 48시간 무료 2026년 까지 입니다 날짜 시간 상관 없습니다\n왕복 항공권+렌트 무료\n호텔비 본인부담 환불x</string>
+    <string name="main_second_seller6">하루</string>
+    <string name="main_second_price6">55000</string>
+    <string name="main_second_address6">충남 아산시 탕정면</string>
+    <string name="main_second_likeNum6">20</string>
+    <string name="main_second_chatNum6">41</string>
+    <string name="main_second_temp6">36.5</string>
 
-    <string name="main_second_title8">샤넬 탑핸들 가방</string>
-    <string name="main_second_subscription8">샤넬 트랜디 CC 탑핸들 스몰 램스킨 블랙 금장 플랩백 !\n\n색상 : 블랙\n사이즈 : 25.5cm * 17.5cm * 8cm\n구성 : 본품더스트\n\n급하게 돈이 필요해서 팝니다 ㅠ ㅠ</string>
-    <string name="main_second_seller8">난쉽</string>
-    <string name="main_second_price8">180000</string>
-    <string name="main_second_address8">동래구 온천제2동</string>
-    <string name="main_second_likeNum8">31</string>
-    <string name="main_second_chatNum8">7</string>
+    <string name="main_second_title7">중국산예초기(한번도 안씀)</string>
+    <string name="main_second_subscription7">한번도 안쓴 중국산 예초기 100.000원에 판매합니다.\n할아버지가 산건데 안쓰게되서 팝니다.\n오늘 오후 먼저 약속잡고 오시는 분께 팔겠 습니다.</string>
+    <string name="main_second_seller7">이음농장</string>
+    <string name="main_second_price7">100000</string>
+    <string name="main_second_address7">제주 서귀포시 대륜동</string>
+    <string name="main_second_likeNum7">16</string>
+    <string name="main_second_chatNum7">29</string>
+    <string name="main_second_temp7">36.9</string>
 
-    <string name="main_second_title9">4행정 엔진분무기 판매합니다.</string>
-    <string name="main_second_subscription9">3년전에 사서 한번 사용하고 그대로 둔 상태입니다. 요즘 사용은 안해봤습니다. 그래서 저렴하게 내 놓습니다. 중고라 반품은 어렵습니다.\n</string>
-    <string name="main_second_seller9">알뜰한</string>
-    <string name="main_second_price9">30000</string>
-    <string name="main_second_address9">원주시 명륜2동</string>
-    <string name="main_second_likeNum9">7</string>
-    <string name="main_second_chatNum9">28</string>
+    <string name="main_second_title8">크록스 슬리퍼</string>
+    <string name="main_second_subscription8">사이즈는275정도 됩니다 구매후 사이즈가 작아저셔 한번정도 신고 나둔 새거와 마찬가지인 상품입니다</string>
+    <string name="main_second_seller8">미카아이</string>
+    <string name="main_second_price8">5000</string>
+    <string name="main_second_address8">전남 순천시 연향동</string>
+    <string name="main_second_likeNum8">19</string>
+    <string name="main_second_chatNum8">38</string>
+    <string name="main_second_temp8">37.4</string>
 
-    <string name="main_second_title10">셀린느 버킷 가방</string>
-    <string name="main_second_subscription10">22년 신세계 대전 구매입니당\n셀린느 버킷백\n구매해서 몇번사용했어요\n까짐 스크래치 없습니다.\n타지역에서 보내는거라 택배로 진행합니당!</string>
-    <string name="main_second_seller10">똑태현</string>
-    <string name="main_second_price10">190000</string>
-    <string name="main_second_address10">중구 동화동</string>
-    <string name="main_second_likeNum10">40</string>
-    <string name="main_second_chatNum10">6</string>
+    <string name="main_second_title9">쌀이 남아요</string>
+    <string name="main_second_subscription9">쌀이 남아서 팝니다\n도정은 1월에 했어요\n제가 혼자 다 못 먹어서요\n문고리합니다</string>
+    <string name="main_second_seller9">Emily</string>
+    <string name="main_second_price9">15000</string>
+    <string name="main_second_address9">경기도 파주시 와동동</string>
+    <string name="main_second_likeNum9">4</string>
+    <string name="main_second_chatNum9">12</string>
+    <string name="main_second_temp9">66.9</string>
+
+    <string name="main_second_title10">대저 토마토</string>
+    <string name="main_second_subscription10">안녕하세요^^\n부산 대저에서 토마토 농사 하고 있습니다!\n\n요즘 토마토 가격이 너무 높아서..\n조금이라도 저렴하게 드시면 좋을것 같아서 올려 봅니다^^\n저희가 도매처에 받는 가격 입니다!\n보통 시중에는 이가격에서 1.5~2배에 판매가 됩니다.\n\n*2.5키로 한박스 입니다.\n\n*정품20,000:토마토 모양도 이뿌고,표면도 깨끗 합니다.(선물용로 추천드립니다.)\n\n*줄과12,000:토마토 표면에 기스나,줄이 있지만 맛은 차이 없습니다(줄과 중에서도,괜찮은것들로 선별해서 드립니다. 가정용으로 추천합니다)\n\n택배비\n한박스 3,000\n두박스 3,200\n(부산 대저에서,보내드리는 거라 택배 밖에 안됩니다^^)\n\n당일 아침 수확한,싱싱한 토마토로\n드립니다!^^</string>
+    <string name="main_second_seller10">대저토마토</string>
+    <string name="main_second_price10">12000</string>
+    <string name="main_second_address10">경남 양산시 동면</string>
+    <string name="main_second_likeNum10">39</string>
+    <string name="main_second_chatNum10">33</string>
+    <string name="main_second_temp10">20.9</string>
 
 </resources>

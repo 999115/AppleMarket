@@ -23,7 +23,7 @@
             android:id="@+id/tv_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/main_top_location"
+            android:text="@string/main_top_location1"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent"

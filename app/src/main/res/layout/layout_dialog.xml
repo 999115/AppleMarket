@@ -9,70 +9,79 @@
         android:id="@+id/iv_product_img"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:scaleType="centerCrop"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/bg_trim"
         android:clipToOutline="true"
-        android:src="@drawable/sample1"
-        app:layout_constraintEnd_toStartOf="@+id/tv_title"
+        android:src="@drawable/img_first_1"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:ellipsize="end"
-        android:maxLines="1"
-        android:text="@string/main_first_title1"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_address"
+        app:layout_constrainedWidth="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/iv_product_img"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/tv_address"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="3dp"
-        android:text="@string/main_first_address1"
-        android:textColor="@color/gray"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_price"
-        app:layout_constraintStart_toEndOf="@+id/iv_product_img"
-        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/main_first_title1"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_address"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
 
-    <TextView
-        android:id="@+id/tv_price"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="3dp"
-        android:text="@string/main_price"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/tv_question"
-        app:layout_constraintStart_toEndOf="@+id/iv_product_img"
-        app:layout_constraintTop_toBottomOf="@+id/tv_address" />
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/main_first_address1"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/main_price"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_address" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/tv_question"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="7dp"
         android:gravity="center"
         android:text="@string/dialog_question"
+        android:textColor="@color/apple"
         android:textSize="17sp"
         android:textStyle="bold"
-        android:textColor="@color/apple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_product_img" />

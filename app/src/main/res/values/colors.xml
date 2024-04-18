@@ -4,9 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#727272</color>
     <color name="light_gray">#878787</color>
-    <color name="carrot">#EF4D41</color>
-    <color name="dark_carrot">#B0352D</color>
     <color name="apple">#DE3200</color>
     <color name="dark_apple">#A22400</color>
     <color name="emerald">#249584</color>
+    <color name="green">#339B49</color>
+    <color name="yellow">#FF9320</color>
+    <color name="orange">#FF5E2B</color>
+    <color name="red">#EF0000</color>
 </resources>

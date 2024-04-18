@@ -14,7 +14,7 @@ class MainDefaultAdapter(private val productList: MutableList<ProductInfo>) :
         fun clicked(view: View, position: Int)
     }
 
-    var click : Click? = null
+    var click: Click? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding =
