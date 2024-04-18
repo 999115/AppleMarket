@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.applemarket.databinding.LayoutMainDefaultBinding
+import java.text.DecimalFormat
 
 class MainDefaultAdapter(private val productList: MutableList<ProductInfo>) :
     RecyclerView.Adapter<MainDefaultAdapter.ViewHolder>() {
@@ -46,7 +47,7 @@ class MainDefaultAdapter(private val productList: MutableList<ProductInfo>) :
             binding.tvAddress.setText(info.address)
             binding.tvPrice.text = priceContext.getString(
                 R.string.main_price,
-                priceContext.getString(info.price).toInt()
+                DecimalFormat("#,###,###").format(priceContext.getString(info.price).toInt())
             )
             binding.tvChatNumber.setText(info.chatNum)
             binding.tvLikeNumber.setText(info.likeNum)

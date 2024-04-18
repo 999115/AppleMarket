@@ -1,15 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">AppleMarket</string>
+    <string name="app_name">사과마켓</string>
 
     <string name="main_top_location">내배캠동</string>
 
-    <string name="main_price">%d원</string>
+    <string name="main_price">%s원</string>
 
     <string name="detail_temp_degree">%d °C</string>
-    <string name="detail_temp">매너온도</string>
+    <string name="detail_temp"><u>매너온도</u></string>
     <string name="detail_chat">채팅하기</string>
 
     <string name="detail_toast_like">찜 성공!</string>
+
+    <string name="dialog_title">새로운 주인을 찾는 상품이 많이 있어요!</string>
+    <string name="dialog_question">그래도 종료하시겠어요?</string>
+    <string name="dialog_check">확인</string>
+    <string name="dialog_cancel">취소</string>
+
+    <string name="notice_title">관심 가졌던 물건의 알림이 도착했어요!</string>
+    <string name="notice_check">보러가기</string>
+
+    <!--ProductInfo 구분선-->
 
     <string name="main_first_title1">산진 한달된 선풍기 팝니다</string>
     <string name="main_first_subscription1">이사가서 필요가 없어졌어요 급하게 내놓습니다</string>

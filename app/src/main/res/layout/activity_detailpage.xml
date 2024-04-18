@@ -56,7 +56,7 @@
                     android:id="@+id/iv_profile_img"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_launcher_background"
+                    android:src="@drawable/ic_apple"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -99,7 +99,7 @@
                     android:id="@+id/iv_temp_img"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@drawable/ic_launcher_background"
+                    android:src="@drawable/img_2"
                     app:layout_constraintBottom_toTopOf="@+id/tv_temp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -110,8 +110,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/detail_temp"
-                    android:textSize="11sp"
+                    android:textSize="11.5sp"
                     android:textColor="@color/gray"
+                    android:textStyle=""
+                    android:layout_marginTop="3dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/iv_temp_img" />
@@ -192,7 +194,7 @@
         <android.widget.Button
             android:id="@+id/bt_chat"
             android:layout_width="85dp"
-            android:layout_height="0dp"
+            android:layout_height="30dp"
             android:background="@drawable/slc_bt_chat"
             android:text="@string/detail_chat"
             android:textSize="14sp"

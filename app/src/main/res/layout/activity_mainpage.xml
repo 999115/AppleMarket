@@ -43,7 +43,7 @@
             android:id="@+id/iv_notice"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:src="@drawable/ic_notice"
+            android:src="@drawable/slc_bt_notice"
             app:layout_constraintBottom_toBottomOf="@+id/iv_move_fragment"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/iv_move_fragment"/>

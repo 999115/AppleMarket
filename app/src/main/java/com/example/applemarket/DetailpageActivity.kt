@@ -10,6 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.applemarket.databinding.ActivityDetailpageBinding
 import com.example.applemarket.databinding.ActivityMainpageBinding
+import java.text.DecimalFormat
 
 class DetailpageActivity : AppCompatActivity() {
 
@@ -42,7 +43,7 @@ class DetailpageActivity : AppCompatActivity() {
         binding.tvSubscription.setText(infoData.subscription)
         binding.tvPrice.text = getString(
             R.string.main_price,
-            getString(infoData.price).toInt()
+            DecimalFormat("#,###,###").format(getString(infoData.price).toInt())
         )
 
     }

@@ -10,7 +10,7 @@
             <corners
                 android:radius="6dp"/>
             <solid
-                android:color="@color/dark_carrot"/>
+                android:color="@color/dark_apple"/>
             <padding
                 android:left="0dp"
                 android:right="0dp"
@@ -28,7 +28,7 @@
             <corners
                 android:radius="6dp"/>
             <solid
-                android:color="@color/carrot"/>
+                android:color="@color/apple"/>
             <padding
                 android:left="0dp"
                 android:right="0dp"
